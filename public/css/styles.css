@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+body{
+    background-color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+font-family: 'ubuntu', sans-serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: black;
+    height: 55px;
+  }
+  .active{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+  }
+
+  .topnav a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav a.active {
+    float: left;
+    /* background-color: green; */
+    color: white;
+  }
+
+  .topnav input[type=text] {
+    width: 45%;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    margin-left: 53px;
+    font-size: 17px;
+  }
+
+  .topnav img{
+    text-align: center;
+    justify-content: center;
+    width: 108px;
+    height: 60px;
+    padding: 10px 22px 6px 37px;
+    margin: -23px;
+  }
+
+  .brand{
+    font-weight: bolder;
+    font-size: 1.8rem;
+    color: white;
+    float: left;
+    padding: 7px 0px 0px 36px;
+  }
+
+  .container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 11px;
+    font-family: "varela round", sans-serif;
+    display: flex;
+    margin: 35px auto;
+    width: 70%;
+    background-image: url('/images/background.jpg');
+    background-size: contain;
+}
+
+.bottom{
+    position: absolute;
+    height: 85px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 12px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    margin-bottom: 7px;
+    width: 80%;
+    cursor: pointer;
+}
+
+.songItem{
+
+    display: flex;
+    background-color: white;
+    color: black;
+    height: 24px;
+    margin: 13px 0;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.songItem i{
+    cursor: pointer;
+}
+
+.songList img{
+    width: 23px;
+    height: 23px;
+    border-radius: 34px;
+}
+
+.songItemContainer{
+    margin-top: 74px;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: "varela round", sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+#btn-submit{
+    width: 300px;
+}
+
+
+.signup-box{        
+    width: 360px;
+    height: 630px;
+    margin: 60px auto;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.login-box{
+    width: 360px;
+    height: 320px;
+    margin: 60px auto;
+    border-radius: 5px;
+    background-color: white;
+}
+
+h1{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+}
+
+h4{
+    text-align: center;
+}
+
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label{
+    display: flex;
+    margin-top: 20px ;
+
+}
+
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    outline: none;
+}
+
+input[type="button"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+}
+
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.para-2{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    margin-top: -112px;
+}
+
+.para-2 a{
+    color: #49c1a2;
+}
+
