@@ -1,0 +1,23 @@
+<%- include('partials/header') %>
+
+<div class="signup-box">
+    <h1>Register</h1>
+    <h4>Enter the below details to Register here</h4>
+    <form action="/register" method="post">
+        <label for="">First Name</label>
+        <input type="text" name="firstName">
+        <label for="">Last Name</label>
+        <input type="text" name="lastName">
+        <label for="">Email</label>
+        <input type="email"name="username">
+        <label for="">Password</label>
+        <input type="password"name="password">
+        <button type="submit" id="btn-submit" class="btn btn-success my-3">Submit</button>
+        <!-- <input type="button" value="Submit" name="" id=""> -->
+    </form>
+    <p>By clicking the Sign Up button, you agree to our <br>
+    <a href="#">Terms and Condition</a> and <a href="#">Policy Privacy</a></p>
+</div>
+<p class="para-2">Already have an account? <a href="login">Login here</a></p>
+
+<!-- <%- include('partials/footer') %> -->

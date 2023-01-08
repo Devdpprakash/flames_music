@@ -1,0 +1,17 @@
+<%- include('partials/header') %>
+
+<div class="login-box">
+    <h1>Login</h1>
+    <form action="/login" method="post">
+        <label for="">Email</label>
+        <input type="email" name="username" placeholder="">
+        <label for="">Password</label>
+        <input type="password"  name="password" placeholder="">
+        <!-- <input type="button" value="Submit" name="" id="">
+         -->
+         <button type="submit" id="btn-submit" class="btn btn-success my-3">Submit</button>
+    </form>
+</div>
+<p class="para-2">Not have an account?<a href="register">Register Here</a></p>
+
+<!-- <%- include('partials/footer') %> -->
